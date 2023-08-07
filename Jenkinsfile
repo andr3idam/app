@@ -26,16 +26,16 @@ pipeline {
                 }
             }
         }
-    //     stage('Deploy') {
-    //         steps {
-    //             sh 'docker-compose up -d'
-    //         }
+        stage('Deploy') {
+            steps {
+                sh 'docker-compose up -d'
+            }
     //     // }
     //     // stage('Quality Check') {
     //     //     steps {
     //     //         // Integrate SonarQube analysis here
     //     //     }
-    //     // }
+}
 
-    // }
-//
+}
+
