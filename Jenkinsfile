@@ -30,11 +30,11 @@ pipeline {
             steps {
                 sh 'docker-compose up -d'
             }
-        }
-        stage('Quality Check') {
-            steps {
-                // Integrate SonarQube analysis here
-            }
-        }
+        // }
+        // stage('Quality Check') {
+        //     steps {
+        //         // Integrate SonarQube analysis here
+        //     }
+        // }
     }
 }
